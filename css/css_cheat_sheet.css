@@ -1,40 +1,55 @@
-* {
+* 
+{
     font-family: 'Times New Roman', Times, serif;
     border: 0.1px solid whitesmoke; 
 }
 
-body {
+body 
+{
     margin: 0px;
     padding: 15px;
 
 }
 
-h1 {
+h1 
+{
     border-color: rgb(255, 171, 238);
 }
 
-h2 {
+h2 
+{
     border-color: rgb(138, 205, 245);
 }
 
-h4 {
+h4 
+{
     border-color: rgb(110, 171, 242);
 }
 
-p {
+p 
+{
     font-size: medium;
     /* border-color: rgb(110, 171, 242); */
     /* border-color: rgb(138, 205, 245); */
 }
 
-div {
+div 
+{
     /* background-color: rgb(138, 205, 245); */
     background-color: rgb(110, 171, 242);
     margin: 10px 15px;
     padding: 15px 20px 30px 25px;
 }
 
-nav {
+span
+{
+    background-color: rgb(110, 171, 242);
+    margin: 10px 15px;
+    padding: 15px 20px 30px 25px;
+}
+
+nav 
+{
     border-bottom: 1px solid black;
 }
 
@@ -43,11 +58,13 @@ nav {
     padding-left: 0;
 }
 
-.nave {
+.nave 
+{
     display: inline-block;
 }
 
-.nave a::after {
+.nave a::after 
+{
     display: inline-block;
     color: #000;
     content: '>';
@@ -56,25 +73,30 @@ nav {
     padding: 0 3px;
 }
 
-.inside {
+.inside 
+
+{
     padding: 5px 10px 15px 15px;
     border-color: rgb(110, 171, 242);
 }
 
-.container {
+.container 
+{
     /* background-color: rgb(110, 171, 242); */
     background-color: rgb(138, 205, 245);
 
     border: 2px solid black;
 }
 
-#container-1 {
+#container-1 
+{
     /* background color: coral; */
     /* background-color: rgb(238, 128,88); */
     background-color: rgb(255, 171, 238);
 }
 
-#ej_border {
+#ej_border 
+{
     background-color: rgb(138, 205, 245);
 
     padding: 1%;
@@ -84,7 +106,8 @@ nav {
     border-width: 4px;
 }
 
-#ej_borderLeft {
+#ej_borderLeft 
+{
     background-color: rgb(110, 171, 242);
     /* border-color: rgb(110, 171, 242); */
 
@@ -95,7 +118,8 @@ nav {
     border-left-width: 3px;
 }
 
-#ej_borderRight {
+#ej_borderRight 
+{
     background-color: rgb(110, 171, 242);
 
     padding: 1%;
@@ -105,7 +129,8 @@ nav {
     border-right-width: 3px;
 }
 
-#ej_borderTop {
+#ej_borderTop 
+{
     background-color: rgb(110, 171, 242);
 
     padding: 1%;
@@ -115,7 +140,8 @@ nav {
     border-top-width: 3px;
 }
 
-#ej_borderBottom {
+#ej_borderBottom 
+{
     background-color: rgb(110, 171, 242);
 
     padding: 1%;
@@ -125,7 +151,8 @@ nav {
     border-Bottom-width: 3px;
 }
 
-#ej1_borderRadius {
+#ej1_borderRadius 
+{
     background-color: rgb(110, 171, 242);
 
     padding: 1%;
@@ -135,7 +162,8 @@ nav {
     border-radius: 10px;
 }
 
-#ej2_borderRadius {
+#ej2_borderRadius 
+{
     background-color: rgb(110, 171, 242);
 
     padding: 1%;
@@ -145,11 +173,13 @@ nav {
     border-radius: 50% 20% / 10% 40%;
 }
 
-#backh {
+#backh 
+{
     border-width: 0px;
 }
 
-#background_image {
+#background_image 
+{
     background-image: url(../images/css.jpg);
 }
 
@@ -163,7 +193,8 @@ nav {
     color: coral;
 }
 
-#ej_font {
+#ej_font 
+{
     background-color: rgb(138, 205, 245);
     border-color: rgb(138, 205, 245);
 
@@ -173,7 +204,8 @@ nav {
     font: italic small-caps bold 14px/2 cursive;
 }
 
-#ej_fontf {
+#ej_fontf 
+{
     background-color: rgb(110, 171, 242);
     border-color: rgb(110, 171, 242);
 
@@ -183,7 +215,8 @@ nav {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#ej_fonts {
+#ej_fonts 
+{
     background-color: rgb(110, 171, 242);
     border-color: rgb(110, 171, 242);
 
@@ -193,7 +226,8 @@ nav {
     font-style: italic;
 }
 
-#ej_fontw {
+#ej_fontw 
+{
     background-color: rgb(110, 171, 242);
     border-color: rgb(110, 171, 242);
 
@@ -203,7 +237,8 @@ nav {
     font-weight: 900;
 }
 
-#ej_width {
+#ej_width 
+{
     background-color: rgb(110, 171, 242);
     /* border-color: rgb(110, 171, 242); */
 
@@ -213,7 +248,8 @@ nav {
     width: 150px;
 }
 
-#ej_height {
+#ej_height 
+{
     background-color: rgb(110, 171, 242);
     /* border-color: rgb(110, 171, 242); */
 
@@ -223,7 +259,8 @@ nav {
     height: 180px;
 }
 
-#ej_lists {
+#ej_lists 
+{
     background-color: rgb(110, 171, 242);
     border-color: rgb(110, 171, 242);
 
@@ -233,7 +270,8 @@ nav {
     list-style: georgian inside;
 }
 
-#ej_margin {
+#ej_margin 
+{
     background-color: rgb(110, 171, 242);
     /* border-color: rgb(110, 171, 242); */
 
@@ -241,7 +279,8 @@ nav {
     margin: 10%;
 }
 
-#ej_padding {
+#ej_padding 
+{
     background-color: rgb(110, 171, 242);
     border-color: rgb(110, 171, 242);
 
@@ -249,7 +288,8 @@ nav {
     margin: auto;
 }
 
-#ej_overflow {
+#ej_overflow 
+{
     background-color: rgb(110, 171, 242);
     border-color: rgb(110, 171, 242);
 
@@ -258,5 +298,23 @@ nav {
     overflow: auto;
 }
 
+#ej1_display
+{
+    display: block;
+}
 
+#ej2_display
+{
+    display: inline;
+}
 
+#ej_position
+{
+    position: relative;
+    top: 40px; left: 40px;
+}
+
+#ej_filter
+{
+    filter: blur(5px);
+}
