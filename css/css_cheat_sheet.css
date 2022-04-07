@@ -249,3 +249,14 @@ nav {
     margin: auto;
 }
 
+#ej_overflow {
+    background-color: rgb(110, 171, 242);
+    border-color: rgb(110, 171, 242);
+
+    width: 70%;
+    height: 2cm;
+    overflow: auto;
+}
+
+
+
