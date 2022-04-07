@@ -1,0 +1,41 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    border: 0.1px solid whitesmoke;
+}
+
+body {
+    margin: 0px;
+    padding: 15px;
+
+}
+
+p {
+    font-size: medium;
+}
+
+div {
+    /* background-color: rgb(138, 205, 245); */
+    background-color: rgb(110, 171, 242);
+    margin: 10px 15px;
+    padding: 15px 20px 30px 25px;
+}
+
+.inside {
+    padding: 5px 10px 15px 15px;
+}
+
+.container {
+    /* background-color: rgb(110, 171, 242); */
+    background-color: rgb(138, 205, 245);
+
+    border: 2px solid black;
+}
+
+#container-1 {
+    /* background color: coral; */
+    /* background-color: rgb(238, 128,88); */
+    background-color: rgb(255, 171, 238)
+}
+
+
+
