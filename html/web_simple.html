@@ -7,7 +7,7 @@
     <link  href="../css/web_simple.css" type="text/css" rel="stylesheet">
     <title>Simple web page</title>
 </head>
-<body>
+<body id="bodi">
 
     <div id="head"
     class="div1">
@@ -18,13 +18,13 @@
 
         <div id="navegation"
         class="div1">
-            <p>Content</p>
-            <p>About</p>
-            <p>Contact us</p>
+            <p class="nav-text">Content</p>
+            <p class="nav-text">About</p>
+            <p class="nav-text">Contact us</p>
         </div>
     </div>
-    <br>
-    <br>
+    <!-- <br> -->
+    <!-- <br> -->
 
     <div id="info1"
     class="div2">
@@ -35,7 +35,7 @@
 
         <div id="info-body"
         class="div2">
-            <p id="body-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.Reprehenderit, magni?</p>
+            <p id="info-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure quas natus possimus asperiores blanditiis obcaecati dignissimos autem nisi dolorum.</p>
         </div>
         <br>
     </div>
@@ -44,35 +44,41 @@
     class="div3">
         <div id="form-info"
         class="div3">
-        <p><b>Subscribe to the newsletter</b></p>
+        <p><b id="sub-text">Subscribe to the newsletter</b></p>
         </div>
 
         <form>
             <input type="email" placeholder="Enter your email">
 
-            <button>
-                <p><b>Subscribe</b></p>
+            <button id="sub">
+                <p id="sub-button"><b>Subscribe</b></p>
             </button>
         </form>
     </div>
 
     <div id="images"
     class="div4">
-        <div id="html-img"
+        <div id="html-div"
         class="div4">
-            <img src="../images/index.jpg" alt="html">
+            <div id="html-img">
+                <img src="../images/index.jpg" alt="html" width="200">
+            </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </div>
 
-        <div id="css-img"
+        <div id="css-div"
         class="div4">
-            <img src="../images/index.jpg" alt="css">
+        <div id="css-img">
+            <img src="../images/index.jpg" alt="css" width="200">
+        </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
 
-        <div id="js-img"
+        <div id="js-div"
         class="div4">
-            <img src="../images/index.jpg" alt="js">
+        <div id="js-img">
+            <img src="../images/index.jpg" alt="js" width="200">
+        </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
     </div>
