@@ -2,7 +2,7 @@
 {
     /* font-family: 'Times New Roman', Times, serif; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 0.1px solid black;
+    /* border: 0.1px solid black; */
     font-size: small;
 }
 
@@ -18,7 +18,7 @@
     flex-direction: row;
     background-color: rgb(40, 96, 113);
     color: aliceblue;
-    height: 40px;
+    height: 60px;
 }
 
 #head
@@ -30,16 +30,16 @@
 
 #page-title
 {
+    
     justify-content: left;
-    padding: 0px;
     flex: 0.73;
     margin: 0px 100px 0px 80px;
 }
 
 .nav-text
 {
-    font-size: 12px;
-    padding-right: 7px;
+    font-size: 13px;
+    padding-right: 11px;
 }
 
 #navegation
@@ -58,8 +58,13 @@
     display: flex;
     flex-direction: column;
     background-color: rgb(190, 125, 14);
-
+    padding: 20px;
     color: aliceblue;
+}
+
+#info1
+{
+    height: 175px;
 }
 
 #info-title
@@ -96,23 +101,27 @@
     flex-direction: row;
     background-color: rgb(40, 96, 113);
     color: aliceblue;
-    font-size: 10px;
 }
 
 #form-info
 {
-    padding: 0px;
+    padding-right: 50px;
     /* margin: 0px 100px 0px 100px; */
     margin-left: 200px;
     margin-right: 100px;
-    flex: 0.4;
+    /* flex: 0.4; */
     height: 35px;
-    width: 0px;
 }
 
-#sub-text
+/* #p-sub-text
 {
-    font-size: 10px;
+    padding-right: 50px;
+    margin-right: 50px
+} */
+
+#b-sub-text
+{
+    font-size: 14.5px;
 }
 
 #sub
@@ -189,5 +198,15 @@
     margin: 0px;
     padding: 10px;
     /* height: 50px; */
+
+}
+
+#ftext-div
+{
+
+}
+
+#foot-text
+{
 
 }
