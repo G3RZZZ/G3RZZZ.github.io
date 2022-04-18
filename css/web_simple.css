@@ -28,10 +28,11 @@
     margin: 0px;
 }
 
-#page-title
+#page-title-div
 {
     height: 50px;
     padding-top: 5px;
+    padding-left: 70px;
     justify-content: left;
     flex: 0.73;
     margin: 0px 100px 0px 80px;
@@ -44,7 +45,7 @@
     padding-right: 11px;
 }
 
-#navegation
+#navegation-div
 {
 
 
@@ -62,14 +63,17 @@
     background-color: rgb(190, 125, 14);
     padding: 20px;
     color: aliceblue;
+    justify-content: center;
+    align-items: center;
 }
 
-#info1
+#info-div
 {
     height: 175px;
+    justify-content: center;
 }
 
-#info-title
+#info-title-div
 {
     justify-content: center;
     margin: 10px;
@@ -84,17 +88,16 @@
     font-size: 33px;
 }
 
-#info-body
+#info-body-div
 {
     margin: 0px;
-    padding: 0px 170px;
-    justify-content: center;
-
+    padding: 0px 5px;
 }
 
-#info-text
+#p-info-text
 {
     text-align: justify;
+    padding: 0px 200px;
 }
 
 .div3
@@ -103,51 +106,76 @@
     flex-direction: row;
     background-color: rgb(40, 96, 113);
     color: aliceblue;
+    justify-content: center;
 }
 
-#form-info
+#form-info-div
 {
     margin-left: 200px;
     height: 35px;
-    text-align: right;
+    text-align: center;
+    /* padding-left: 200px; */
+    /* padding-bottom: 10px; */
+    padding: 5px 100px 15px 10px;
 }
 
-/* #p-sub-text
+#p-sub-text
 {
-    padding-right: 50px;
-    margin-right: 50px
-} */
+    /* padding-top: 10px; */
+    margin: 10px;
+    padding: 10px;
+}
 
 #b-sub-text
 {
-    font-size: 14.5px;
+    font-size: 12.5px;
+    margin: 10px;
+    padding: 10px;
+    /* padding-top: 10px; */
 }
 
-#sub
+#email-form
 {
-    background-color: rgb(217, 153, 3);
+    /* flex: 1; */
+    padding-left: 100px;
+    padding-right: 400px;
+    padding-top: 14px;
+}
+
+#email-form-input
+{
+    font-size: 12.5px;
 }
 
 #sub-button
 {
     background-color: rgb(217, 153, 3);
+}
+
+#p-sub-button
+{
+    background-color: rgb(217, 153, 3);
     color: aliceblue;
-    font-size: 5px;
+    font-size: 1px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .div4
 {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
-#images
+#images-div
 {
     padding: 5px;
 }
 
 #html-div
 {
+    flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
     align-content: center;
@@ -162,6 +190,7 @@
 
 #css-div
 {
+    flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
     align-content: center;
@@ -177,6 +206,7 @@
 
 #js-div
 {
+    flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
     padding: 10px;
@@ -197,7 +227,6 @@
     margin: 0px;
     padding: 10px;
     /* height: 50px; */
-
 }
 
 #ftext-div
@@ -205,7 +234,7 @@
 
 }
 
-#foot-text
+#footer-text
 {
-
+    font-size: 10px;
 }
