@@ -33,6 +33,3 @@ function bubbleS(d)
 // ejbubble3.push(61,34,1,1000,101);
 // console.log(ejbubble3);
 // console.log(bubbleS(ejbubble3));
-
-// 4. Escribe dos funciones: la primera que invierta un arreglo de números y regrese un nuevo arreglo con el resultado; la segunda que modifique el mismo arreglo que se pasa como argumento. No se permite usar la función integrada 'reverse'.
-
