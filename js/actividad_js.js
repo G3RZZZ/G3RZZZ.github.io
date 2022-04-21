@@ -14,7 +14,7 @@ function bubbleS(d)
             {
                 // inter(d, j-1, j);
                 temp = d[j-1];
-                d[j-1] = d[j];
+                d[j-1] = d[j]; 
                 d[j] = temp;
             }
     // console.log(d);
