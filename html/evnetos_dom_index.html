@@ -25,8 +25,8 @@
 
     <div class="container">
         <p>2. Al dar click al siguiente botón, obtén el nombre y apellido de las siguientes cajas de texto, y agrega, después del botón, un elemento que tenga el nombre completo.</p>
-        <!-- <form id="form1" onsubmit="getFormvalue()"> -->
-        <form id="form1">
+        <form id="form1" onsubmit="getFormvalue()">
+        <!-- <form id="form1"> -->
             First name: <input type="text" name="fname" ><br>
             Last name: <input type="text" name="lname" ><br><br>
         <input type="submit" value="Submit">
@@ -91,15 +91,19 @@
             <option>White</option>
             <option>Black</option>
             </select>
-            <input type="button" value="Add color" id="aColor">
-            <input type="button" value="Remove color" id="rColor">
+            <input type="button" onclick="addColor()" value="Add color" id="aColor">
+            <input type="button" onclick="remColor()" value="Remove color" id="rColor">
         </form>
     </div>
 
     <div class="container">
         <p>6. Al poner el mouse encima de la siguiente imagen, genera dos números aleatorios entre 300 y 600 para el width y height de una imagen. Reemplaza la imagen de placeholder por otra similar con el tamaño random que generaste. El evento solo se dispara cuando pones el mouse en la imagen.</p>
         <img id="imgs" src="http://placekitten.com/200/300">
+        <!-- <img id="imgs" src="../images/kitten1.jpg"> -->
+
     </div>
+
     <script src="../js/eventos_dom.js"></script>
+
 </body>
 </html>

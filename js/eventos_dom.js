@@ -19,29 +19,17 @@ function getFormvalue(event)
 
     const cName = document.getElementById("fullName")
 
-    // const fname = form1.getElementsByName("fname").value
+
     const fname = form.elements[0].value
-    // const fname = form1.elements.fname.value
-    // const fname = form1.getElementsByName("fname").value
 
-    // const lname = form1.getElementsByName("lname").value
     const lname = form.elements[1].value
-    // const lname = form1.elements.lname.value
-    // const lname = form1.getElementsByName()
 
 
-    // const firname = form1.getElementsByName("fname")
-
-    // const lasname = form1.getElementsByName("lname")
-
-    // cName.innerHTML = `fname} lname`
     cName.textContent = `${fname} ${lname}`
 
     event.preventDefault();
-    // cName.textContent = `${firname} ${lasname}`
 
 }
-// const form1 = document.getElementById("form1")
 
 
 // 3.
@@ -118,7 +106,7 @@ function addColor(event)
 {
     const colorS = document.getElementById("colorSelect")
 
-    const colorsP = ["Orange", "Red", "Violet", "Blue", "Green", "Yellow", "White", "Black"]
+    const colorsP = ['Orange', 'Red', 'Violet', 'Blue', 'Green', 'Yellow', 'White', 'Black']
 
 
     const rColor = colorsP[Math.floor(Math.random() * colorsP.length)]
@@ -138,27 +126,33 @@ function remColor(event)
     const dColor = colorS.getElementsByTagName("option")
 
     const rColor = Math.floor(Math.random() * colorS.getElementsByTagName("option").length)
+    // const rColor = Math.floor(Math.random() * dColor.length)
 
+
+    // colorS.removeChild(colorS.children[rColor])
     colorS.removeChild(dColor[rColor])
+
 
 }
 
 // 7.
 function swapI(event)
 {
-    const im6 = document.getElementById("imgs")
+    const imgs = document.getElementById("imgs")
 
     const rWidth = Math.random() * (300) + 300
 
     const rHeight = Math.random() * (300) + 300
 
-    const randomNumber = Math.floor(Math.random() * (2) + 1)
+    const rN = Math.floor(Math.random() * (2) + 1)
 
-    im6.setAttribute("src", `../images/kitten${randomNumber}.jpg`)
+    imgs.setAttribute("src", `../images/kitten${rN}.jpg`)
+    // im6.setAttribute("src", `../images/kitten2.jpg`)
 
-    im6.setAttribute("height", `${randomHeight}px`)
+    imgs.setAttribute("width", `${rWidth}px`)
 
-    im6.setAttribute("width", `${randomWidth}px`)
+    imgs.setAttribute("height", `${rHeight}px`)
+
 }
 
 document.addEventListener("mousemove", mouseMovement)
