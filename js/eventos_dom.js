@@ -147,6 +147,7 @@ function swapI(event)
     const rN = Math.floor(Math.random() * (2) + 1)
 
     imgs.setAttribute("src", `../images/kitten${rN}.jpg`)
+    // imgs.setAttribute("src", `http://placekitten.com/200/300`)
     // im6.setAttribute("src", `../images/kitten2.jpg`)
 
     imgs.setAttribute("width", `${rWidth}px`)
@@ -159,14 +160,18 @@ document.addEventListener("mousemove", mouseMovement)
 
 document.getElementById("form1").addEventListener("submit", getFormvalue)
 
-document.getElementById("rowI").document.addEventListener("click", insertRow)
+// document.getElementById("rowI").document.addEventListener("click", insertRow)
+// // document.getElementById("rowI").addEventListener("click", insertRow)
 
-document.getElementById("colI").document.addEventListener("click", insertColumn)
 
-document.getElementById("f2").addEventListener("click", changeContent)
+// document.getElementById("colI").document.addEventListener("click", insertColumn)
 
-document.getElementById("aColor").addEventListener("click", addColor)
+// document.getElementById("f2").addEventListener("click", changeContent)
 
-document.getElementById("rColor").addEventListener("click", remColor)
+// document.getElementById("aColor").addEventListener("click", addColor)
 
+// document.getElementById("rColor").addEventListener("click", remColor)
+
+// document.getElementById("imgs").document.addEventListener("mouseover", swapI)
 document.getElementById("imgs").addEventListener("mouseover", swapI)
+// document.addEventListener("mouseover", swapI)
